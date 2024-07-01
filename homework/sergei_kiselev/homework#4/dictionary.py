@@ -8,7 +8,7 @@ my_dict = {
 print(my_dict['tuple'][-1])
 (my_dict['list']).append('five')
 my_dict['list'].pop(1)
-my_dict['dict']['i am a tuple'] = {None, False, 777}
+my_dict['dict'][('i am a tuple',)] = (None, False, 777)
 my_dict['dict'].pop(False, 'is')
 my_dict['set'].add(6)
 my_dict['set'].remove(1)
