@@ -5,7 +5,7 @@ while True:
     bonus = random.choice([True, False])
     if salary.isnumeric():
         salary = int(salary)
-        if bonus == True:
+        if bonus is True:
             new_bonus = random.randrange(100, 999)
             salary_bonus = new_bonus + salary
             print(f'{salary}, {bonus} - ${salary_bonus}')
