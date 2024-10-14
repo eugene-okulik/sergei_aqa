@@ -9,4 +9,3 @@ new_new_date = new_date.strftime('%d.%m.%Y, %H:%M')
 print(new_date_month)
 print(new_date)
 print(new_new_date)
-
