@@ -6,7 +6,7 @@ new_temperature = filter(lambda x: x > 28, temperatures)
 
 list_hot_temp = []
 for x in new_temperature:
-        list_hot_temp.append(x)
+    list_hot_temp.append(x)
 
 print(list_hot_temp)
 print(max(list_hot_temp))
