@@ -1,4 +1,5 @@
 def repeat_me(func):
+
     def numbers():
         first = int(input('the first number: '))
         second = int(input('the second number: '))
@@ -26,5 +27,6 @@ def calc(first, second, operation):
         return first/second
     elif operation == '*':
         return first * second
+
 
 calc()
