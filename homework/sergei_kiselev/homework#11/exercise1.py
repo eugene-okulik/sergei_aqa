@@ -31,25 +31,31 @@ seventh_book = SchoolBook('Математические горизонты: По
 
 print(f"Материал: {first_book.page_material}, Наличие текста: {first_book.text}, Название: {first_book.book_name}, "
       f"Автор: {first_book.author}, Количество страниц: {first_book.page_count}, "
-      f"ISBN: {first_book.ISBN}" + (f", Зарезервирована" if first_book.book_is_reserved else ""))
+      f"ISBN: {first_book.ISBN}" + (", Зарезервирована" if first_book.book_is_reserved else ""))
+
 print(f"Материал: {second_book.page_material}, Наличие текста: {second_book.text}, Название: {second_book.book_name}, "
       f"Автор: {second_book.author}, Количество страниц: {second_book.page_count}, "
-      f"ISBN: {second_book.ISBN}" + (f", Зарезервирована" if second_book.book_is_reserved else ""))
+      f"ISBN: {second_book.ISBN}" + (", Зарезервирована" if second_book.book_is_reserved else ""))
+
 print(f"Материал: {third_book.page_material}, Наличие текста: {third_book.text}, Название: {third_book.book_name}, "
       f"Автор: {third_book.author}, Количество страниц: {third_book.page_count}, "
-      f"ISBN: {third_book.ISBN}" + (f", Зарезервирована" if third_book.book_is_reserved else ""))
+      f"ISBN: {third_book.ISBN}" + (", Зарезервирована" if third_book.book_is_reserved else ""))
+
 print(f"Материал: {fourth_book.page_material}, Наличие текста: {fourth_book.text}, Название: {fourth_book.book_name}, "
       f"Автор: {fourth_book.author}, Количество страниц: {fourth_book.page_count}, "
-      f"ISBN: {fourth_book.ISBN}" + (f", Зарезервирована" if fourth_book.book_is_reserved else ""))
+      f"ISBN: {fourth_book.ISBN}" + (", Зарезервирована" if fourth_book.book_is_reserved else ""))
+
 print(f"Материал: {fifth_book.page_material}, Наличие текста: {fifth_book.text}, Название: {fifth_book.book_name}, "
       f"Автор: {fifth_book.author}, Количество страниц: {fifth_book.page_count}, "
-      f"ISBN: {fifth_book.ISBN}" + (f", Зарезервирована" if fifth_book.book_is_reserved else ""))
+      f"ISBN: {fifth_book.ISBN}" + (", Зарезервирована" if fifth_book.book_is_reserved else ""))
+
 print(f"Материал: {sixth_book.page_material}, Наличие текста: {sixth_book.text}, Название: {sixth_book.book_name}, "
       f"Автор: {sixth_book.author}, Количество страниц: {sixth_book.page_count}, "
       f"ISBN: {sixth_book.ISBN}, Предмет: {sixth_book.subject}, Класс: {sixth_book.school_class}" +
-      (f", Зарезервирована" if sixth_book.book_is_reserved else ""))
+      (", Зарезервирована" if sixth_book.book_is_reserved else ""))
+
 print(f"Материал: {seventh_book.page_material}, Наличие текста: {seventh_book.text}, "
       f"Название: {seventh_book.book_name}, Автор: {seventh_book.author}, "
       f"Количество страниц: {seventh_book.page_count}, ISBN: {seventh_book.ISBN}, Предмет: {seventh_book.subject}, "
       f"Класс: {seventh_book.school_class}" +
-      (f", Зарезервирована" if seventh_book.book_is_reserved else ""))
+      (", Зарезервирована" if seventh_book.book_is_reserved else ""))
