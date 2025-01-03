@@ -51,11 +51,12 @@ print(f"Материал: {fifth_book.page_material}, Наличие текст�
 
 print(f"Материал: {sixth_book.page_material}, Наличие текста: {sixth_book.text}, Название: {sixth_book.book_name}, "
       f"Автор: {sixth_book.author}, Количество страниц: {sixth_book.page_count}, ISBN: {sixth_book.ISBN}, "
-      f"Предмет: {sixth_book.subject}, Класс: {sixth_book.school_class}" +
-      (", Зарезервирована" if sixth_book.book_is_reserved else ""))
+      f"Предмет: {sixth_book.subject}, Класс: {sixth_book.school_class}"
+      f"{', Зарезервирована' if sixth_book.book_is_reserved else ''}")
 
 print(
     f"Материал: {seventh_book.page_material}, Наличие текста: {seventh_book.text}, Название: {seventh_book.book_name}, "
     f"Автор: {seventh_book.author}, Количество страниц: {seventh_book.page_count}, ISBN: {seventh_book.ISBN}, "
-    f"Предмет: {seventh_book.subject}, Класс: {seventh_book.school_class}" +
-    (", Зарезервирована" if seventh_book.book_is_reserved else ""))
+    f"Предмет: {seventh_book.subject}, Класс: {seventh_book.school_class}"
+    f"{', Зарезервирована' if seventh_book.book_is_reserved else ''} "
+)
